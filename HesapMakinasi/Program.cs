@@ -39,7 +39,7 @@ namespace HesapMakinasi
             }
             else if (yazıTipi == 2)
             {
-                Console.WriteLine(" Kelimeyi Girin");
+                Console.WriteLine(" Kelimeyi Giriniz");
                 kelime1 = Console.ReadLine();
                 sonuc = MetinDüzenleyicileri.Buyutme(kelime1);
 
